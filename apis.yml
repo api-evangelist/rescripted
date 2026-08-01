@@ -1,7 +1,26 @@
 aid: rescripted
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rescripted.png
 name: Rescripted
-description: Rescripted is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rescripted is a digital women's health platform dedicated to empowering women across the entire
+  lifecycle, from first period to last. It combines an editorial content hub of expert-reviewed
+  articles, videos, and clinical research with Clara, an AI-powered health companion built on
+  thousands of real questions and reviewed by medical experts. The platform spans menstrual health,
+  fertility, pregnancy, sexual health, general wellness, and condition management for PCOS,
+  endometriosis, and related concerns, and works with 200+ health and wellness partners. Founded by
+  Kristyn Hodgdon and Abby Mercado and backed by Techstars, Rescripted is a consumer-facing product
+  with no public developer API, SDK, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/rescripted/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Women's Health
+- Digital Health
+- Femtech
+- Fertility
+- Artificial Intelligence
+- Consumer Health
+- Wellness
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://bestshotcare.com/
+  url: https://rescripted.com/
+- type: About
+  url: https://rescripted.com/our-story
+- type: SignUp
+  url: https://rescripted.com/login
+- type: Login
+  url: https://rescripted.com/login
+- type: PrivacyPolicy
+  url: https://rescripted.com/posts/privacy-policy
+- type: TermsOfService
+  url: https://rescripted.com/posts/terms
+- type: Partners
+  url: https://rescripted.com/partner-with-us
+- type: DomainSecurity
+  url: security/rescripted-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
